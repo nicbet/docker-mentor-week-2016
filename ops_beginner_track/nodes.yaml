@@ -1,0 +1,25 @@
+---
+- name: node1
+  box: williamyeh/centos7-docker
+  ram: 512
+  ip: 192.168.100.11
+
+- name: node2
+  box: williamyeh/centos7-docker
+  ram: 512
+  ip: 192.168.100.12
+
+- name: node3
+  box: williamyeh/centos7-docker
+  ram: 512
+  ip: 192.168.100.13
+
+- name: node4
+  box: williamyeh/centos7-docker
+  ram: 512
+  ip: 192.168.100.14
+
+- name: node5
+  box: williamyeh/centos7-docker
+  ram: 512
+  ip: 192.168.100.15
